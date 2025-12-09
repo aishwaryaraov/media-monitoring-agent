@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 from textblob import TextBlob
 
-API_KEY = "AIzaSyDgEqqHfGK--odfAp4gn62P78aSJe028V4"
+API_KEY = ""
 PLACE_ID = "ChIJp2UYiWKAhYAR6tURKBJKCeY"
 
 GOOGLE_URL = f"https://places.googleapis.com/v1/places/{PLACE_ID}"

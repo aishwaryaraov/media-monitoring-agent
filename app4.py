@@ -19,14 +19,14 @@ app_flask = Flask(__name__)
 ssl_context = ssl._create_unverified_context()
 
 # --- Legacy WebClient for posting (optional, can use Bolt's client too) ---
-SLACK_BOT_TOKEN = "xoxb-5124627664-10041450707367-1gqyVWPBnX9YmMAgAC4VP3Gh"
+SLACK_BOT_TOKEN = ""
 SLACK_CHANNEL = "#market_monitoring_hackathon-2025"
 slack_client = WebClient(token=SLACK_BOT_TOKEN, ssl=ssl_context)
 
 # --- Slack Bolt setup for interactive components ---
 slack_app = App(
     token=SLACK_BOT_TOKEN,  # Use xoxb- token for Bolt
-    signing_secret="1844298ac0ca0dcbf094d1755642a134",  # Get from Slack app settings
+    signing_secret="",  # Get from Slack app settings
     client=slack_client
 )
 

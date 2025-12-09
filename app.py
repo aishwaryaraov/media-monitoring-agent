@@ -15,6 +15,7 @@ from email.mime.multipart import MIMEMultipart
 
 app = Flask(__name__)
 
+//Use open API later
 GENAI_API_URL = "https://genai-gateway-qa2.apps.app-k8cnp-1.caas.app-npd.aws.cloud.squaretrade.com/api/genai-gateway/v1/questions"
 GENAI_DEPLOYMENT_ID = "gpt-4o"
 

@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 ssl_context = ssl._create_unverified_context()
 # --- Slack setup ---
-SLACK_BOT_TOKEN = "xoxb-5124627664-10041450707367-1gqyVWPBnX9YmMAgAC4VP3Gh" 
+SLACK_BOT_TOKEN = "" 
 SLACK_CHANNEL = "#market_monitoring_hackathon-2025"  # channel ID or name
 slack_client = WebClient(token=SLACK_BOT_TOKEN, ssl=ssl_context)
 
